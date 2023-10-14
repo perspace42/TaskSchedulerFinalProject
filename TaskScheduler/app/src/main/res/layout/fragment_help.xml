@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Help">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="368dp"
+            android:layout_height="98dp"
+            android:text="The Task Scheduler App allows the user to store tasks Created in the Create Task Page in the Task List Page. The Preferences page exists to allow the user to change the theme of the app. Page Navigation is accomplished through the bottom navigation widget"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.488"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.165"
+            app:layout_wrapBehaviorInParent="vertical_only" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="372dp"
+            android:layout_height="97dp"
+            android:text="First: Navigate to the Create Task Page. Second: fill out all of the required attributes: Name, Description, Creation Date, Start Date, End Date, Priority, Status. Third: After you have finished filling out all of the attributes for your task select the green + button in the bottom right to send the created task to the Task List"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.487"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.413" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="372dp"
+            android:layout_height="180dp"
+            android:text="First: Navigate to the Task List Page. If you have not made any tasks yet, or have deleted all of the tasks you have made. The message: No Tasks Have Been Added, Select Create Task To Add A Task, will be displayed. Otherwise you will be able to see your tasks grouped in order of creation. Only the name and Description will be visible in the list, to view the complete attributes of the task, it must be clicked on. After clicking on the task the Create Task page will open with all of the details of the task you have clicked on. To edit the task simply change the fields and then click the add Task Button "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.41"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.845" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="143dp"
+            android:layout_height="39dp"
+            android:text="About The App"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.095" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="143dp"
+            android:layout_height="39dp"
+            android:text="Creating A Task"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.322" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="143dp"
+            android:layout_height="39dp"
+            android:text="Viewing A Task"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.58" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

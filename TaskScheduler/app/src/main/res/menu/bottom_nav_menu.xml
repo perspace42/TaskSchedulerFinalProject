@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/task_list"
+        android:icon="@drawable/ic_task_list_24dp"
+        android:title="Task List" />
+
+    <item
+        android:id="@+id/task_create"
+        android:icon="@drawable/ic_task_create_24dp"
+        android:title="Create Task"/>
+
+    <item
+        android:id="@+id/help"
+        android:icon="@drawable/ic_help_24dp"
+        android:title="Help"/>
+
+    <item
+        android:id="@+id/preferences"
+        android:icon="@drawable/ic_settings_24dp"
+        android:title="Preferences"/>
+        />
+
+</menu>
